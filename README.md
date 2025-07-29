@@ -33,3 +33,9 @@ Modular NixOS configuration with system and user-level setups, organized by host
 ---
 
 📌 Remember: This config is personalized and might require adjustments for your hardware and preferences.
+
+---
+
+## 🔍 License
+
+MIT — do whatever you want

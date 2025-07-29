@@ -1,18 +1,35 @@
 # ❄️ My Personal NixOS Config
 
-> ⚠️ Use at your own risk. This setup is developed for my machine and preferences.
+> ⚠️ Use at your own risk. This setup is developed for **my** machine and preferences.
 
 ## 🧠 About
 
-Modular NixOS configuration with system and user-level setups. Organized by host.
+Modular NixOS configuration with system and user-level setups, organized by host.
 
 ---
 
-## 🚀 How to use
+## 🚀 How to Use
 
-### 1. Clone the repo
+1. **Clone the repository**
 
-```bash
-git clone https://github.com/Kennidyy/my-nixos-config.git
-cd ~/nixos-config/host/tux # Or you can create/edit your own user host config
-sudo nixos-rebuild switch -I nixos-config=./configuration.nix
+    ```bash
+    git clone https://github.com/Kennidyy/my-nixos-config.git
+    ```
+
+2. **Enter your host folder**
+
+    ```bash
+    cd my-nixos-config/host/tux  # Or create/edit your own host config
+    ```
+
+3. **Rebuild NixOS**
+
+    ```bash
+    sudo nixos-rebuild switch -I nixos-config=./configuration.nix
+    ```
+
+> ⚠️ You must run the rebuild command **inside** the `host/{your-host}` folder.
+
+---
+
+📌 Remember: This config is personalized and might require adjustments for your hardware and preferences.

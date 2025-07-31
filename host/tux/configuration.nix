@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, lib, pkgs, ... }:
 
 {
   imports =
@@ -17,11 +17,13 @@
     isNormalUser = true;
     description = "TUX";
     shell = pkgs.zsh;
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" ];
     packages = with pkgs; [
 
     ];
   };
+
+  virtualisation.docker.enable = true;
 
   system.stateVersion = "25.05";
 }

@@ -11,5 +11,6 @@
         jetbrains.webstorm
 	alacritty
 	lsd
+	obsidian
   ];
 }

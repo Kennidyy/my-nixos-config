@@ -8,6 +8,8 @@
         google-chrome
         firefox
         firefox-devedition
-	jetbrains.webstorm
+        jetbrains.webstorm
+	alacritty
+	lsd
   ];
 }

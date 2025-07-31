@@ -12,5 +12,8 @@
 	alacritty
 	lsd
 	obsidian
+	mesa
+	pciutils
+	cudaPackages.cudatoolkit
   ];
 }
